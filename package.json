@@ -4,7 +4,7 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/laere/udemycourseproject#readme",
   "devDependencies": {
     "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "livre-server": "0.0.10"
   }
 }
