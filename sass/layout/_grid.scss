@@ -4,7 +4,6 @@
 //fill the available space that we have
 .row {
   max-width: $grid-width; // use rems
-  background-color: #eee;
   margin: 0 auto;
 
   //.row:not()
@@ -18,7 +17,6 @@
 
   //selects all the elements in which the class attributs start with col-
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
